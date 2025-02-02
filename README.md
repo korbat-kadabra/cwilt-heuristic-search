@@ -39,7 +39,7 @@ Other paramters are:
  - --threads (how many threads to use for multithreaded algorithms)
  - --probargs (some types of problem have arguments)
  - --cost (some types of problem have different cost function)
- - nomemcheck (if you run out of RAM the algorithm is terminated, but you can disable this check)
+ - -- nomemcheck (if you run out of RAM the algorithm is terminated, but you can disable this check)
 
 Further note that some kinds of problem may need additional stuff.  For example TopSpin is a domain where the heuristic is a pattern
 database, so you have to provide a pattern database file.  Note that there is code for generating pattern database files.
